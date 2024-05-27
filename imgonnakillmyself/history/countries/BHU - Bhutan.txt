@@ -1,0 +1,340 @@
+﻿capital = 324
+
+oob = "BHU_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+set_war_support = 0
+set_stability = 0
+
+create_country_leader = {
+	name = "Nobody"
+	desc = ""
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "BHU_1939"
+	set_technology = {
+		infantry_weapons = 1
+		tech_mountaineers = 1
+
+		#doctrines
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		dispersed_industry = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+CUB = {
+transfer_state = 685
+add_state_core = 685
+transfer_state = 311
+add_state_core = 311
+transfer_state = 690
+add_state_core = 690
+transfer_state = 693
+add_state_core = 693
+transfer_state = 689
+add_state_core = 689
+}
+add_ideas = uninterested
+annex_country = {
+target = MAN
+transfer_troops = no
+}
+annex_country = {
+target = NEP
+transfer_troops = no
+}
+annex_country = {
+target = AUS
+transfer_troops = no
+}
+annex_country = {
+target = MAL
+transfer_troops = no
+}
+annex_country = {
+target = INS
+transfer_troops = no
+}
+annex_country = {
+target = GER
+transfer_troops = no
+}
+annex_country = {
+target = USA
+transfer_troops = no
+}
+annex_country = {
+target = ENG
+transfer_troops = no
+}
+annex_country = {
+target = SWE
+transfer_troops = no
+}
+annex_country = {
+target = FRA
+transfer_troops = no
+}
+annex_country = {
+target = LUX
+transfer_troops = no
+}
+annex_country = {
+target = BEL
+transfer_troops = no
+}
+annex_country = {
+target = HOL
+transfer_troops = no
+}
+annex_country = {
+target = CZE
+transfer_troops = no
+}
+annex_country = {
+target = POL
+transfer_troops = no
+}
+annex_country = {
+target = AUS
+transfer_troops = no
+}
+annex_country = {
+target = ICE
+transfer_troops = no
+}
+annex_country = {
+target = AFA
+transfer_troops = no
+}
+annex_country = {
+target = LIT
+transfer_troops = no
+}
+annex_country = {
+target = EST
+transfer_troops = no
+}
+annex_country = {
+target = LAT
+transfer_troops = no
+}
+annex_country = {
+target = SPR
+transfer_troops = no
+}annex_country = {
+target = ITA
+transfer_troops = no
+}
+annex_country = {
+target = ROM
+transfer_troops = no
+}
+annex_country = {
+target = YUG
+transfer_troops = no
+}
+annex_country = {
+target = SWI
+transfer_troops = no
+}
+annex_country = {
+target = TUR
+transfer_troops = no
+}
+annex_country = {
+target = GRE
+transfer_troops = no
+}annex_country = {
+target = ALB
+transfer_troops = no
+}
+annex_country = {
+target = NOR
+transfer_troops = no
+}
+annex_country = {
+target = DEN
+transfer_troops = no
+}annex_country = {
+target = BUL
+transfer_troops = no
+}
+annex_country = {
+target = POR
+transfer_troops = no
+}
+annex_country = {
+target = FIN
+transfer_troops = no
+}annex_country = {
+target = IRE
+transfer_troops = no
+}
+annex_country = {
+target = HUN
+transfer_troops = no
+}
+annex_country = {
+target = AFG
+transfer_troops = no
+}annex_country = {
+target = CAN
+transfer_troops = no
+}
+annex_country = {
+target = CHI
+transfer_troops = no
+}
+annex_country = {
+target = PRC
+transfer_troops = no
+}annex_country = {
+target = IRQ
+transfer_troops = no
+}
+annex_country = {
+target = JAP
+transfer_troops = no
+}
+annex_country = {
+target = MON
+transfer_troops = no
+}annex_country = {
+target = PER
+transfer_troops = no
+}
+annex_country = {
+target = PHI
+transfer_troops = no
+}
+annex_country = {
+target = SAF
+transfer_troops = no
+}annex_country = {
+target = SAU
+transfer_troops = no
+}
+annex_country = {
+target = SIA
+transfer_troops = no
+}
+annex_country = {
+target = SIK
+transfer_troops = no
+}annex_country = {
+target = TAN
+transfer_troops = no
+}
+annex_country = {
+target = TIB
+transfer_troops = no
+}
+annex_country = {
+target = YUN
+transfer_troops = no
+}annex_country = {
+target = AST
+transfer_troops = no
+}
+annex_country = {
+target = NZL
+transfer_troops = no
+}
+annex_country = {
+target = OMA
+transfer_troops = no
+}annex_country = {
+target = YEM
+transfer_troops = no
+}
+annex_country = {
+target = ETH
+transfer_troops = no
+}
+annex_country = {
+target = LIB
+transfer_troops = no
+}
+annex_country = {
+target = GXC
+transfer_troops = no
+}annex_country = {
+target = SHX
+transfer_troops = no
+}
+annex_country = {
+target = XSM
+transfer_troops = no
+}
+annex_country = {
+target = MEN
+transfer_troops = no
+}
+release = SUR
+release = GYA
+release = CAY
+release = PUE
+release = CRC
+release = TRI
